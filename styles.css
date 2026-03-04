@@ -9,7 +9,6 @@ body{
     background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
     color: white;
-    height: 300px;
     padding-right: 60px;
     padding-left: 60px;
     padding-bottom: 40px;
@@ -21,6 +20,7 @@ body{
     align-items: center;
     padding-bottom: 60px;
     padding-top:10px;
+    flex: 0 5 auto;
 }
 
 .Headerlogo{
@@ -29,6 +29,11 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.sidetext{
+    flex: 1 1 300px;
+}
+
 
 ul{
     margin: 0;
@@ -53,21 +58,29 @@ button{
     font-size: 16px;
     padding: 5px 20px ;
     cursor: pointer;
+    margin-top: 8px;
 }
 
 .below_header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap:40px;
 }
 
 .awesome{
     font-size: 48px;
     font-weight: 900;
-} 
+}
+
+.this{
+    color: #9ca3af;
+    font-size: 20px;
+    width: 65%;
+}
 
 .dogimage{
-    width: 45%;
-    max-height: 200px;
+    flex: 1 1 300px;
+    max-height: 250px;
     object-fit: cover;
 }
