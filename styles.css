@@ -30,11 +30,6 @@ body{
     justify-content: center;
 }
 
-.sidetext{
-    flex: 1 1 300px;
-}
-
-
 ul{
     margin: 0;
     font-size: 18px;
@@ -49,23 +44,15 @@ a{
     color: white ;
 }
 
-button{
-    background-color: #3882f6;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    border-radius: 6px;
-    border: none;
-    font-size: 16px;
-    padding: 5px 20px ;
-    cursor: pointer;
-    margin-top: 8px;
-}
-
 .below_header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap:40px;
+}
+
+.sidetext{
+    flex: 1 1 300px;
 }
 
 .awesome{
@@ -83,4 +70,16 @@ button{
     flex: 1 1 300px;
     max-height: 250px;
     object-fit: cover;
+}
+
+button{
+    background-color: #3882f6;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    padding: 5px 20px ;
+    cursor: pointer;
+    margin-top: 8px;
 }
