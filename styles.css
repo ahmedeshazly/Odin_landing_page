@@ -10,7 +10,7 @@ body{
     background: #1f2937;
     font-family: 'Roboto', sans-serif;
     color: white;
-    padding: 0px 130px 60px 130px; 
+    padding: 0px 130px 80px 130px; 
 
 }
 
@@ -87,12 +87,13 @@ button{
 .second{
     background-color: white;
     color: black;
+    padding: 20px 80px 40px 80p;
 }
 
 .secondtitle{
     display: flex;
     justify-content: center;
-    font-family: "Robot", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -102,7 +103,7 @@ button{
 .cards{
     display: flex;
     padding-top: 50px;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
 }
 
@@ -128,4 +129,9 @@ button{
     max-width: 125px;
     font-family: 'Roboto', sans-serif;
     color: gray;
+}
+
+/* #####[ THIRD SECTION ]#####*/
+.third{
+    background-color: #E5E7EB;
 }
