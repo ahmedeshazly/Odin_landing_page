@@ -10,7 +10,8 @@ body{
     background: #1f2937;
     font-family: 'Roboto', sans-serif;
     color: white;
-    padding: 25px 60px 60px 60px; 
+    padding: 0px 130px 60px 130px; 
+
 }
 
 .header{
@@ -47,7 +48,6 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:40px;
 }
 
 .sidetext{
@@ -57,18 +57,19 @@ a{
 .awesome{
     font-size: 48px;
     font-weight: 900;
+    max-width: 550px;
 }
 
 .this{
     color: #9ca3af;
     font-size: 20px;
-    width: 65%;
+    max-width: 500px;
 }
 
 .dogimage{
     flex: 1 1 300px;
-    max-height: 250px;
-    object-fit: cover;
+    max-height: auto;
+    max-width: 600px;
 }
 
 button{
