@@ -165,7 +165,7 @@ button{
     text-align: right;
     font-weight: 800;
     font-style: normal;
-    padding-right: 21px;
+    padding-right: 25px;
 }
 /* #####[ FOURTH SECTION ]#####*/
 .fourth{
@@ -180,11 +180,11 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 150px;
+    gap: 175px;
     background-color: #3882f6;
     border: 0;
     border-radius: 5px;
-    padding: 40px 150px 40px 150px;
+    padding: 45px 115px 45px 115px;
 }
 
 .action{
@@ -207,6 +207,7 @@ button{
     font-weight: bold;
     padding: 6px 25px 6.5px 25px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 
