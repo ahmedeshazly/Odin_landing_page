@@ -172,3 +172,12 @@ button{
 
 
 /* #####[ FOOTER ]#####*/
+.footer{
+    background-color: #1F2937;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0px 45px 0px;
+}
