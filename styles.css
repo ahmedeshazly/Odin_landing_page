@@ -168,7 +168,46 @@ button{
     padding-right: 21px;
 }
 /* #####[ FOURTH SECTION ]#####*/
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 80px 0;
 
+}
+
+.bluebox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 5px;
+    padding: 40px 150px 40px 150px;
+}
+
+.action{
+    color: white;
+    font-weight: bold;
+}
+
+.Sign_up{
+    color: lightgray;
+    font-size: smaller;
+    font-weight: 300;
+}
+
+.Signupbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: white solid 2px;
+    font-weight: bold;
+    padding: 6px 25px 6.5px 25px;
+    border-radius: 8px;
+}
 
 
 /* #####[ FOOTER ]#####*/
